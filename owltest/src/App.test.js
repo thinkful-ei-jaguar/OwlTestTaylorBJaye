@@ -13,7 +13,14 @@ describe('App Component', () => {
       avatar: 'https://placekitten.com/200/287',
       inSession: true,
       onStage: true
-    }]}/>, main);
+    }]}
+      chatStore= {[{
+        participantId:2,
+        type:"thumbs-up",
+        timestamp:1548852484247
+      }]}
+      
+    />, main);
     ReactDOM.unmountComponentAtNode(main);
   });
 /*

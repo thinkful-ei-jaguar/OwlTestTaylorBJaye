@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Component renders Chat UI as expected 1`] = `
+<div
+  className="messages"
+>
+  <p>
+    2
+  </p>
+  <p>
+    thumbs-up
+  </p>
+  <p>
+    07:48:04 GMT-0500 (Eastern Standard Time)
+  </p>
+</div>
+`;
