@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Participant Component renders the UI as expected 1`] = `
+exports[`Participant Component renders the Participant UI as expected 1`] = `
 <div>
   <div
     className="session-participant"

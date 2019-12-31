@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage Component renders the Stage UI as expected 1`] = `
+<div
+  className="graybackground"
+>
+  <div
+    className="person"
+  >
+    <p>
+      Kitten
+    </p>
+    <img
+      alt="Kitten"
+      src="https://placekitten.com/200/287"
+    />
+  </div>
+</div>
+`;

@@ -18,7 +18,7 @@ describe('Participant Component', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('renders the UI as expected', () => {
+  it('renders the Participant UI as expected', () => {
     const tree = renderer
       .create(<Participant
         id= {123}
