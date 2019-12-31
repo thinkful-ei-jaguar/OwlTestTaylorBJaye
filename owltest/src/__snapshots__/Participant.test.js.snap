@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Component renders the UI as expected 1`] = `
+<div>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Kitten"
+      className="user-avatar"
+      src="https://placekitten.com/200/287"
+    />
+  </div>
+  <div
+    className="participant-info"
+  >
+    <h6
+      className="participant-name"
+    >
+      Kitten
+    </h6>
+    <div
+      className="participant-status participant-status__green"
+    >
+      onStage
+    </div>
+  </div>
+</div>
+`;

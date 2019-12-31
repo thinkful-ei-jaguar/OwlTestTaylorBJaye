@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.session-participant {
+    display: flex;
+    flex-direction: row;
+}
+
+.session-participant .user-avatar {
+    margin-top: 5px;
+}
+
+.session-participant .participant-info {
+    margin-left: 10px;
+}
+
+.session-participant .participant-name, .session-participant .participant-status {
+    font-family: Proxima Nova W01,Avenir Next W01,Avenir Next,sans-serif;
+    font-style: normal;
+}
+
+.session-participant .participant-name {
+    font-weight: 600;
+}
+
+.session-participant .participant-status {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8e939a;
+    padding-left: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.user-avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 10px;
+}

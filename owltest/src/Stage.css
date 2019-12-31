@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.graybackground {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
